@@ -1,10 +1,3 @@
-<?php
-$Book_Name = $_POST["Book_Name"];
-$Category = $_POST["Category"];
-$Price = $_POST["Price"];
-$USED = $_POST["used"];
-$box= $_POST["Post"];
-?>
 
 
 
@@ -21,21 +14,26 @@ $box= $_POST["Post"];
 <%
     String Book_Name = request.getParameter("Book_Name");
     String Category = request.getParameter("Category");
-    String Price = request.getParameter("PRice");
+    String Price = request.getParameter("Price");
     String USED = request.getParameter("used");
+    String New = request.getParameter("New");
     String box = request.getParameter("Post");
-
+    String meat = request.getParameter("meat");
 
 
 %>
 
 
-<h3>입력하신 책 정보는 다음과 같습니다.<h3>
-    <div>Book Name : <?= $Book_Name?> </div>
-        <div>Category : <?= $Category?> </div>
-            <div>Price : <?= $Price?> </div>
-                <div>used : <?= $USED?> </div>
-                    <div>택배 or 직거래 : <?= $box?> </div>
+<h3>입력하신 책 정보는 다음과 같습니다.</h3>
+    <div>
+        Book Name : <%=Book_Name%><br>
+        Category : <%=Category%><br>
+            Price : <%=Price%> <br>
+                중고 : <%=USED%> <br>
+                    새것 : <%=New%> <br>
+                        직거래 : <%=meat%><br>
+                         Post : <%=box%> <br>
+        </div>
 
 
 </body>

@@ -34,7 +34,7 @@
 
         <div>
             <input type="checkbox" id="New" name="New">
-            <label for="New">새삥</label>
+            <label for="New">새것</label>
         </div>
     </fieldset>
 
