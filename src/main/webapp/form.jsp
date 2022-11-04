@@ -18,7 +18,8 @@
 
 </style>
 <h1>Form</h1>
-<form name = "form" action="form_ok.jsp" method="post">
+<div>
+<form name = "form" method="post" action = "from_ok.jsp">
     <br><hr>
 
 
@@ -58,17 +59,9 @@
 
     <input type="submit" value="등록"> <input type="reset" value="취소">
 
-</form>
-<div>
 
-    <script>
-
-    </script>
-</div>
-
-</form>
 
 </body>
-
+</div>
 <a href="hello-servlet">Hello Servlet</a>
 </html>
