@@ -18,13 +18,13 @@
 
 </style>
 <h1>Form</h1>
-<form action="form_ok.jsp" method="post">
+<form name = "form" action="form_ok.jsp" method="post">
     <br><hr>
 
 
 
     <fieldset>
-        <legend>Choose your monster's features:</legend>
+        <legend>중고 OR 새것:</legend>
 
         <div>
             <input type="checkbox" id="used" name="used" checked>
