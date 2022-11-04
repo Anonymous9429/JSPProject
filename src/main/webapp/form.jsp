@@ -40,9 +40,10 @@
 
     <input type="text" id="Book_Name" name="Book_Name" placeholder="책 제목을 입력하세요"><br>
     <input type="text" id="Price" name="Price" placeholder="판매할 가격을 입력하세요"><br>
-    <input type="text" id="출판사" name="출판사" placeholder="출판사"><br>
+    <input type="text" id="publisher" name="publisher" placeholder="출판사"><br>
     <input type="text" id="Category" name="Category" placeholder="카테고리"><br>
-    <input type="text" id="출판 년도/월일" name="출판 년도/월일" placeholder="출판 년도/월일"><br><br>
+    <input type="text" id="year" name="year" placeholder="출판 년도/월일"><br>
+    <input type="text" id="explain" name="explain" placeholder="부연 설명"><br><br>
     <fieldset>
         <legend>직거래 or 택배:</legend>
 

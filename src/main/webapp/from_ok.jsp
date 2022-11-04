@@ -15,12 +15,13 @@
     String Book_Name = request.getParameter("Book_Name");
     String Category = request.getParameter("Category");
     String Price = request.getParameter("Price");
+    String Publisher = request.getParameter("Publisher");
     String USED = request.getParameter("used");
     String New = request.getParameter("New");
-    String box = request.getParameter("Post");
+    String Post = request.getParameter("Post");
     String meat = request.getParameter("meat");
-
-
+    String year = request.getParameter("year");
+    String explain = request.getParameter("explain");
 %>
 
 
@@ -28,11 +29,14 @@
     <div>
         Book Name : <%=Book_Name%><br>
         Category : <%=Category%><br>
-            Price : <%=Price%> <br>
+            출판사 : <%=Publisher%><br>
+                출판 년도/월일 : <%=year%><br>
+             Price : <%=Price%> <br>
                 중고 : <%=USED%> <br>
                     새것 : <%=New%> <br>
                         직거래 : <%=meat%><br>
-                         Post : <%=box%> <br>
+                           택배  : <%=Post%> <br>
+                                부연 설명 : <%=explain%><br>
         </div>
 
 
