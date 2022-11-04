@@ -18,5 +18,6 @@
 %>
 <h2>Title : <%=title%></h2>
 <h3>contents : <%=contents%></h3>
+
 </body>
 </html>
